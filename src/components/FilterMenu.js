@@ -2,22 +2,63 @@ import React from "react";
 
 function FilterMenu() {
   return (
-    <div className="bg-white">
-      <div className="form-control w-full max-w-xs">
-        <label className="label">
-          <span className="label-text">Pick the best fantasy franchise</span>
-        </label>
-        <select className="select select-bordered">
+    <div className="bg-white rounded-xl flex m-8">
+      <div className="p-4">
+        <select className="select">
           <option disabled selected>
-            Pick one
+            Pick your favorite Simpson
           </option>
-          <option>Star Wars</option>
-          <option>Harry Potter</option>
-          <option>Lord of the Rings</option>
-          <option>Planet of the Apes</option>
-          <option>Star Trek</option>
+          <option>Homer</option>
+          <option>Marge</option>
+          <option>Bart</option>
+          <option>Lisa</option>
+          <option>Maggie</option>
         </select>
       </div>
+
+      <div className="p-4">
+        <select className="select">
+          <option disabled selected>
+            Pick your favorite Simpson
+          </option>
+          <option>Homer</option>
+          <option>Marge</option>
+          <option>Bart</option>
+          <option>Lisa</option>
+          <option>Maggie</option>
+        </select>
+      </div>
+
+      <div className="p-4">
+        <select className="select">
+          <option disabled selected>
+            Pick your favorite Simpson
+          </option>
+          <option>Homer</option>
+          <option>Marge</option>
+          <option>Bart</option>
+          <option>Lisa</option>
+          <option>Maggie</option>
+        </select>
+      </div>
+    
+      <div className="p-4">
+        <select className="select">
+          <option disabled selected>
+            Pick your favorite Simpson
+          </option>
+          <option>Homer</option>
+          <option>Marge</option>
+          <option>Bart</option>
+          <option>Lisa</option>
+          <option>Maggie</option>
+        </select>
+      </div>
+
+      <div className="p-4 ml-auto">
+      <button className="btn btn-primary">Filter</button>
+      </div>
+     
     </div>
   );
 }

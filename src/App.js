@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.js';
 import HeroSearch from './components/HeroSearch.js';
 import FilterMenu from './components/FilterMenu.js';
 import PropCard from './components/PropCard.js';
+import PropMapper from './components/PropMapper';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Navbar/>
       <HeroSearch />
       <FilterMenu />
-      <PropCard />
+      <PropMapper />
     </div>
   );
 }
